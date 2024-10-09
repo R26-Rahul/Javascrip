@@ -35,7 +35,7 @@ git add .
 
 ## commit (git commit -m "commit message " )
 ```
-git commit -m "first commit "
+git commit -m "first commit"
 ```
 ## git push to upload files 
 ```
