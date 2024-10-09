@@ -61,6 +61,11 @@ git init
 ```
 ls -a
 ```
+## git remote add origin <link>
+- git romote -v (to verify remote)
+- git branch (to check branch)
+- git branch -M main (to rename branch)
+- git push origin main or git push -u origin main
 ## type of file 
 - untracked or new file 
 - modified (somthing changed)
