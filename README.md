@@ -6,18 +6,22 @@
   ```
   git --version
   ```
-## Git configuration 
+## Git configuration list 
 ```
 git config --list
 ```
-## Now check in vscode editor 
+## Now check in vscode editor turminal 
 ```
 git --version
 ```
-## git clone url form github to store in your local
+
+# git clone url form github to store in your local
+- copy url <https:> from github and paste after git clone 
 ```
 git clone
 ```
+- modifies Files and Folders
+
 ## git Status to show file status 
 ```
 git status
@@ -44,5 +48,38 @@ git commit -m "first commit"
 git push
 ```
 
+- Go to check on github directory and files
+  
+# Now you can create directory from vscode and push on github 
+- create file and directory 
+- CD  go to directory 
+- create .git file
+``` 
+git init 
+```
+- check files 
+```
+ls -a
+```
+## type of file 
+- untracked or new file 
+- modified (somthing changed)
+- staged (ready to commit)
+- unmodified (no changed)
+## add  ( git add <file name> or <.> for all files ) 
+```
+git add .
+```
+- check git status 
 
+## commit (git commit -m "commit message " )
+```
+git commit -m "first commit"
+```
+## git push to upload files 
+```
+git push
+```
+
+- Go to check on github directory and files
   
