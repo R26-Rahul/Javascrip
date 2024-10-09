@@ -33,7 +33,7 @@ git status
 ```
 git add .
 ```
--check git status 
+- check git status 
 
 ## commit (git commit -m "commit message " )
 ```
