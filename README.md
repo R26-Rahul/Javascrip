@@ -63,9 +63,22 @@ ls -a
 ```
 ## git remote add origin <link>
 - git romote -v (to verify remote)
+```
+git remote -v
+```
 - git branch (to check branch)
+```
+git branch
+```
 - git branch -M main (to rename branch)
+```
+git branch -M main
+```
 - git push origin main or git push -u origin main
+```
+git push -u origin main
+```
+
 ## type of file 
 - untracked or new file 
 - modified (somthing changed)
