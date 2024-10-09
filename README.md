@@ -14,7 +14,7 @@ git config --list
 ```
 git --version
 ```
-## git clone url form github to local file 
+## git clone url form github to store in your local
 ```
 git clone
 ```
@@ -22,11 +22,13 @@ git clone
 ```
 git status
 ```
+- cd to go directory and show all the files 
+
 ## type of file 
--untracked or new file 
--modified (somthing changed)
--staged (ready to commit)
--unmodified (no changed)
+- untracked or new file 
+- modified (somthing changed)
+- staged (ready to commit)
+- unmodified (no changed)
 ## add  ( git add <file name> or <.> for all files ) 
 ```
 git add .
