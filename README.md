@@ -7,6 +7,16 @@
   git --version
   ```
 ## Git configuration list 
+- git config --global user.name "Name"
+```
+git config --global user.name 
+```
+
+- git config --global user.email "example@abc.com"
+```
+git config --global user.email 
+```
+
 ```
 git config --list
 ```
