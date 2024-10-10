@@ -7,7 +7,7 @@
   git --version
   ```
 ## Git configuration list 
-- git config --global user.name "Name"
+- git config --global user.name "githubUserName"
 ```
 git config --global user.name 
 ```
