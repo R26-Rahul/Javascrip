@@ -16,7 +16,7 @@ git --version
 ```
 
 # git clone url form github to store in your local
-- copy url <https:> from github and paste after git clone 
+- copy url < https:// > from github and paste after git clone 
 ```
 git clone
 ```
@@ -33,7 +33,7 @@ git status
 - modified (somthing changed)
 - staged (ready to commit)
 - unmodified (no changed)
-## add  ( git add <file name> or <.> for all files ) 
+## add  ( git add < file name > or < . > for all files ) 
 ```
 git add .
 ```
@@ -61,7 +61,7 @@ git init
 ```
 ls -a
 ```
-## git remote add origin <link>
+## git remote add origin < link >
 - git romote -v (to verify remote)
 ```
 git remote -v
@@ -84,7 +84,7 @@ git push -u origin main
 - modified (somthing changed)
 - staged (ready to commit)
 - unmodified (no changed)
-## add  ( git add <file name> or <.> for all files ) 
+## add  ( git add < file name > or < . > for all files ) 
 ```
 git add .
 ```
@@ -101,3 +101,31 @@ git push
 
 - Go to check on github directory and files
   
+# Branch Commands 
+- git branch
+- git branch -M main (to rename branch)
+- git checkout < branch name> (to navigate)
+- git checkout -b < new branch name> (to create new branch)
+- git checkout -d < branch name >
+## Merging Code
+### way 1
+- git diff < branck name> ( to compare commits, branches,files & more)
+- git merge < branch name >
+### way 
+- create a PR 
+## pull Requirest  or Pull Command 
+- git pull origin main ( used to fetch and download content from a remote repo and immediately update the local repo to match that content.)
+## Resolving Merge Conflicts
+- An event that takes place when Git is is unable to automatically resolve differences in code between two commits.
+- git diff main 
+- git merge main 
+- git status 
+## Undoing changes 
+### case 1 : staged changes 
+- git reser < file name >
+- git reset 
+### case 2 : commited changes ( for one commit )
+- git reset HEAD-1
+### case 3 Commited changes (for many commits)
+- git reset < commit hash>
+- git reset --hard < commit hash>
