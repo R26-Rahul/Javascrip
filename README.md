@@ -107,12 +107,14 @@ git push
 - git checkout < branch name> (to navigate)
 - git checkout -b < new branch name> (to create new branch)
 - git checkout -d < branch name >
-## Merging Code
+## Merging Code or branch 
+- git branch -d < branch > (to delete branch )
+- git checkout main or other branch < branch name > (to use changing branch)
 ### way 1
 - git diff < branck name> ( to compare commits, branches,files & more)
 - git merge < branch name >
-### way 
-- create a PR 
+### way 2 
+- create a Pull Requirest 
 ## pull Requirest  or Pull Command 
 - git pull origin main ( used to fetch and download content from a remote repo and immediately update the local repo to match that content.)
 ## Resolving Merge Conflicts
@@ -122,10 +124,21 @@ git push
 - git status 
 ## Undoing changes 
 ### case 1 : staged changes 
-- git reser < file name >
-- git reset 
+- git reser < file name >     (reset file for last changes  )
+- git reset              ( all reset changes in multiple files )
 ### case 2 : commited changes ( for one commit )
-- git reset HEAD-1
+- git reset HEAD-1 ( back to the last commit or like undo )
+- check log 
+```
+git log
+```
+
 ### case 3 Commited changes (for many commits)
-- git reset < commit hash>
-- git reset --hard < commit hash>
+- git reset < commit hash> ( you can undo with the hash code )
+- git reset --hard < commit hash> ( you can undo inside the git and vscode )
+## You can work on other project 
+- find the project and create fork 
+- create copy of master or main branch
+- now you can work on this file and repo 
+- changes marge on main project 
+- pull Requirest marge to project main to my main branch ( this is use for bugs resolved )
