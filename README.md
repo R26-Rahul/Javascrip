@@ -141,4 +141,4 @@ git log
 - create copy of master or main branch
 - now you can work on this file and repo 
 - changes marge on main project 
-- pull Requirest marge to project main to my main branch ( this is use for bugs resolved )
+- pull Requirest marge project main to my main branch ( this is use for bugs resolved )
